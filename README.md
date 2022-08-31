@@ -1,8 +1,8 @@
 # Note-Taker
 
-
 # Description:
 is to modify starter code to create an application called Note Taker that can be used to write and save notes. This application will use an Express.js back end and will save and retrieve note data from a JSON file.
+
 
 ## User Story summarises that, 
 
@@ -28,8 +28,10 @@ WHEN I click on the Write icon in the navigation at the top of the page
 THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column
 
 ## URL:
+[LiveUrl]( https://collzbaba.github.io/Note-Taker/)
 
 ## Screenshot:
+![note-taker](./Develop/Develop/Develop/images/note-taker.png)
 
 ## Technologies:
 * NPM
