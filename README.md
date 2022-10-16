@@ -36,15 +36,17 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
 ## ScreenShot
 ![screenshots](./Develop/images/note-taker.png)
+![screenshots](./Develop/images/screen-1.png)
+![screenshots](./Develop/images/screen-2.png)
 
 ## Questions
-GitHub Profile:
+### GitHub:
 https://github.com/collzbaba
 
-Contact Me:
-If you have any additional questions, please send me an email.
-collzbadodo@gmail.com
+### Contact Me:
+If you have any additional questions, email me at: collzbadodo@gmail.com
+
 
 ## Deployed-Application
-https://collzbaba.github.io/Note-Taker/Links
+https://collzbaba.github.io/Note-Taker/
 
