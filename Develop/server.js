@@ -24,9 +24,26 @@ console.log("hi i made it")
 app.get('/api/notes', (req, res) => {
   console.log("hi i made it")
   readFromFile('./db/db.json').then((data) => res.json(JSON.parse(data)));
-  console.log (res); 
+  // console.log (res); 
   }
 );
+app.post('/api/notes', (req, res) => {
+  // console.info(`${req.method}`);
+  console.log(`${req}`);
+
+  const { NoteTitle, NoteText,  } = req;
+  if (req.body) {
+    const newNote = {
+      NoteTitle,
+      NoteText,
+    };
+
+    readAndAppend(newNote, './db/db.json');
+    res.json(`Note added successfully 🚀`);
+  } else {
+    res.error('Error in adding note');
+  }
+});
 
 app.listen(PORT, () =>
   console.log(`Example app listening at http://localhost:${PORT}`)
