@@ -33,9 +33,7 @@ const getNotes = () =>
     },
   });
 
-const saveNote = (note) =>{
-console.log('note', note);
-
+const saveNote = (note) =>
   fetch('/api/notes', {
     method: 'POST',
     headers: {
@@ -43,8 +41,6 @@ console.log('note', note);
     },
     body: JSON.stringify(note),
   });
-}
-  
 
 const deleteNote = (id) =>
   fetch(`/api/notes/${id}`, {
@@ -72,11 +68,9 @@ const renderActiveNote = () => {
 
 const handleNoteSave = () => {
   const newNote = {
-    NoteTitle: noteTitle.value,
-    NoteText: noteText.value,
+    title: noteTitle.value,
+    text: noteText.value,
   };
-  console.log(newNote);
-
   saveNote(newNote).then(() => {
     getAndRenderNotes();
     renderActiveNote();
