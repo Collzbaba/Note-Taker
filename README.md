@@ -48,5 +48,6 @@ If you have any additional questions, email me at: collzbadodo@gmail.com
 
 
 ## Deployed-Application
-https://collzbaba.github.io/Note-Taker/
+https://blessed-note-taker.herokuapp.com/notes
+
 
